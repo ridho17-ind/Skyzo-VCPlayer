@@ -4,6 +4,14 @@
 
 A Telegram UserBot to Play Audio in Voice Chats.
 
+
+
+## Deploy ke Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ridho17-ind/Skyzo-VCPlayer)
+
+
+
 This is also the source code of the userbot which is being used for playing
 DJ/Live Sets music in [VC DJ/Live Sets](https://t.me/VCSets) group.
 
