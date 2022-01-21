@@ -10,10 +10,10 @@ RUN python -m pip install --upgrade pip
 RUN python -m pip install wheel
 RUN python -m pip install pytgcalls[pyrogram] TgCrypto ffmpeg-python psutil
 
-RUN wget -q https://github.com/callsmusic/tgvc-userbot/archive/dev.tar.gz && \
+RUN wget -q https://github.com/ridho17-ind/Skyzo-VCPlayer/archive/dev.tar.gz && \
     tar xf dev.tar.gz && rm dev.tar.gz
 
-WORKDIR /tgvc-userbot-dev
+WORKDIR /Skyzo-VCPlayer-dev
 CMD python3 main.py
 
 # docker build -t tgcalls .
