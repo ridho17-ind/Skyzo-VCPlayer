@@ -1,0 +1,40 @@
+{
+  "name": "UserBot Pengguna Pemutar Musik Obrolan Suara Telegram (tgvc-King)",
+  "description": "Telegram UserBot untuk Memutar Audio dalam Obrolan Suara Telegram",
+  "repository": "https://github.com/ridho17-ind/Skyzo-VCPlayer",
+  "logo": "https://i.imgur.com/I1jB4i5.jpg",
+  "keywords": [
+    "tgvc-userbot",
+    "telegram",
+    "userbot",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "voip"
+  ],
+  "env": {
+    "API_ID": {
+            "description": "Ambil api_id di web my.telegram.org/apps",
+            "required": true
+    },
+    "API_HASH": {
+            "description": "Ambil api_hash di web my.telegram.org/apps",
+            "required": true
+    },
+    "SESSION_NAME": {
+            "description": "Ambil String Session Pyrogram Caranya Gabung @KingUserbotSupport Lalu Ketik #string",
+            "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
